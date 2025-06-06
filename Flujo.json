@@ -1,0 +1,580 @@
+[
+    {
+        "id": "f931998df22ab45a",
+        "type": "tab",
+        "label": "Dashboard Parqueadero 12 Slots",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "59f51df7c73150f6",
+        "type": "mqtt in",
+        "z": "f931998df22ab45a",
+        "name": "Sensor Slot 1",
+        "topic": "parking/slot1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "2baa406d869cd04d",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 60,
+        "wires": [
+            [
+                "d917183338a670f1"
+            ]
+        ]
+    },
+    {
+        "id": "0d4d43d1dcee270d",
+        "type": "mqtt in",
+        "z": "f931998df22ab45a",
+        "name": "Sensor Slot 2",
+        "topic": "parking/slot2",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "2baa406d869cd04d",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 120,
+        "wires": [
+            [
+                "d917183338a670f1"
+            ]
+        ]
+    },
+    {
+        "id": "b768219f0102e3db",
+        "type": "mqtt in",
+        "z": "f931998df22ab45a",
+        "name": "Sensor Slot 3",
+        "topic": "parking/slot3",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "2baa406d869cd04d",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 180,
+        "wires": [
+            [
+                "d917183338a670f1"
+            ]
+        ]
+    },
+    {
+        "id": "db5144f8d4b2f281",
+        "type": "mqtt in",
+        "z": "f931998df22ab45a",
+        "name": "Sensor Slot 4",
+        "topic": "parking/slot4",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "2baa406d869cd04d",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 240,
+        "wires": [
+            [
+                "d917183338a670f1"
+            ]
+        ]
+    },
+    {
+        "id": "f0c6717db422eaa7",
+        "type": "mqtt in",
+        "z": "f931998df22ab45a",
+        "name": "Sensor Slot 5",
+        "topic": "parking/slot5",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "2baa406d869cd04d",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 300,
+        "wires": [
+            [
+                "d917183338a670f1"
+            ]
+        ]
+    },
+    {
+        "id": "6e518a9abc271571",
+        "type": "mqtt in",
+        "z": "f931998df22ab45a",
+        "name": "Sensor Slot 6",
+        "topic": "parking/slot6",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "2baa406d869cd04d",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 360,
+        "wires": [
+            [
+                "d917183338a670f1"
+            ]
+        ]
+    },
+    {
+        "id": "52356200f18c6431",
+        "type": "mqtt in",
+        "z": "f931998df22ab45a",
+        "name": "Sensor Slot 7",
+        "topic": "parking/slot7",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "2baa406d869cd04d",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 420,
+        "wires": [
+            [
+                "d917183338a670f1"
+            ]
+        ]
+    },
+    {
+        "id": "b1599731de237ade",
+        "type": "mqtt in",
+        "z": "f931998df22ab45a",
+        "name": "Sensor Slot 8",
+        "topic": "parking/slot8",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "2baa406d869cd04d",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 480,
+        "wires": [
+            [
+                "d917183338a670f1"
+            ]
+        ]
+    },
+    {
+        "id": "25777e68b0829a0b",
+        "type": "mqtt in",
+        "z": "f931998df22ab45a",
+        "name": "Sensor Slot 9",
+        "topic": "parking/slot9",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "2baa406d869cd04d",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 540,
+        "wires": [
+            [
+                "d917183338a670f1"
+            ]
+        ]
+    },
+    {
+        "id": "d8cab5fc27c1a031",
+        "type": "mqtt in",
+        "z": "f931998df22ab45a",
+        "name": "Sensor Slot 10",
+        "topic": "parking/slot10",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "2baa406d869cd04d",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 600,
+        "wires": [
+            [
+                "d917183338a670f1"
+            ]
+        ]
+    },
+    {
+        "id": "80fb2e814e159cc4",
+        "type": "mqtt in",
+        "z": "f931998df22ab45a",
+        "name": "Sensor Slot 11",
+        "topic": "parking/slot11",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "2baa406d869cd04d",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 660,
+        "wires": [
+            [
+                "d917183338a670f1"
+            ]
+        ]
+    },
+    {
+        "id": "0e1545dd0b4760a5",
+        "type": "mqtt in",
+        "z": "f931998df22ab45a",
+        "name": "Sensor Slot 12",
+        "topic": "parking/slot12",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "2baa406d869cd04d",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 720,
+        "wires": [
+            [
+                "d917183338a670f1"
+            ]
+        ]
+    },
+    {
+        "id": "d917183338a670f1",
+        "type": "function",
+        "z": "f931998df22ab45a",
+        "name": "Actualizar Estado y UI",
+        "func": "// Obtener el estado actual del parqueadero desde el contexto de flujo, o inicializarlo si no existe.\nlet parkingStatus = flow.get('parkingStatus') || {};\n\n// Extraer el número de slot del topic (ej. \"parking/slot1\" -> 1)\nconst topic = msg.topic;\nconst slotNumber = parseInt(topic.split('slot')[1]);\n\n// Actualizar el estado para este slot en la variable de contexto\nif (!isNaN(slotNumber)) {\n    // Normalizar el estado a \"Ocupado\" o \"Libre\"\n    const status = msg.payload.toString().trim();\n    const normalizedStatus = status.charAt(0).toUpperCase() + status.slice(1).toLowerCase();\n    \n    parkingStatus[slotNumber] = normalizedStatus;\n    flow.set('parkingStatus', parkingStatus);\n}\n\n// Formatear el payload para el dashboard (UI Template)\n// Esto mantiene la compatibilidad con el código del dashboard existente\nmsg.payload = {\n    slot: slotNumber,\n    status: msg.payload,\n    time: new Date().toISOString()\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 280,
+        "wires": [
+            [
+                "3e5b0c557363fe1e"
+            ]
+        ]
+    },
+    {
+        "id": "3e5b0c557363fe1e",
+        "type": "ui_template",
+        "z": "f931998df22ab45a",
+        "group": "440de6c1c08e43ca",
+        "name": "Vista Parqueadero 12 Slots",
+        "order": 1,
+        "width": "26",
+        "height": "20",
+        "format": "<!DOCTYPE html>\n<html lang=\"es\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Parking Lot Status</title>\n\n    <link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Bebas+Neue&display=swap\"\n        rel=\"stylesheet\">\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css\"\n        integrity=\"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==\"\n        crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />\n\n    <style>\n        body {\n            background-size: cover;\n            background-position: center;\n            background-repeat: no-repeat;\n            font-family: 'Roboto', sans-serif;\n            margin: 0;\n            padding: 20px;\n            background-image: url('https://www.scheidt-bachmann.de/fileadmin/images/parking-solutions/products/Head-Leeres-Parkhaus.jpg');\n            color: #333;\n            position: relative;\n            z-index: 0;\n        }\n\n        body::before {\n            content: \"\";\n            position: fixed;\n            top: 0;\n            left: 0;\n            width: 100vw;\n            height: 100vh;\n            background-color: rgba(0, 0, 0, 0.5);\n            z-index: -1;\n        }\n\n        .dashboard-header {\n            text-align: center;\n            margin-bottom: 25px;\n            padding: 15px;\n            background-color: rgba(0, 0, 0, 0.6);\n            border-radius: 8px;\n            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);\n            max-width: 900px;\n            margin-left: auto;\n            margin-right: auto;\n        }\n\n        .dashboard-title {\n            font-family: 'Bebas Neue', sans-serif;\n            font-size: 2.8rem;\n            color: #ffffff;\n            margin: 0 0 10px 0;\n        }\n\n        .availability-counter {\n            font-size: 1.2rem;\n            color: #f0f0f0;\n        }\n\n        .grid-container {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n            grid-gap: 25px;\n            max-width: 900px;\n            margin-left: auto;\n            margin-right: auto;\n        }\n\n        .slot-card {\n            background-color: #ffffff;\n            border: 1px solid #e0e0e0;\n            border-left: 5px solid #4CAF50;\n            border-radius: 10px;\n            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);\n            padding: 20px;\n            text-align: center;\n            position: relative;\n            cursor: pointer;\n            transition: transform 0.3s ease, box-shadow 0.3s ease, border-left-color 0.3s ease;\n        }\n\n        .slot-card:hover {\n            transform: translateY(-5px);\n            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);\n        }\n\n        .slot-card.occupied {\n            background-color: #fff7f7;\n            border-left-color: #F44336;\n        }\n\n        .slot-number {\n            font-family: 'Bebas Neue', sans-serif;\n            font-size: 2.5rem;\n            font-weight: 700;\n            margin-bottom: 15px;\n            color: #333333;\n        }\n\n        .slot-status-container {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            gap: 10px;\n            font-size: 1.4rem;\n            font-weight: bold;\n        }\n\n        .slot-card.occupied .slot-status-container {\n            color: #D32F2F;\n        }\n\n        .slot-card:not(.occupied) .slot-status-container {\n            color: #388E3C;\n        }\n\n        .history-list {\n            margin-top: 20px;\n            font-size: 0.9rem;\n            max-height: 150px;\n            overflow-y: auto;\n            padding-right: 10px;\n            text-align: left;\n            border-top: 1px solid #eaeaea;\n            margin-left: -20px;\n            margin-right: -20px;\n            padding-left: 20px;\n            padding-top: 10px;\n            background-color: #fcfcfc;\n        }\n\n        .history-item {\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n            padding: 8px 10px;\n            border-bottom: 1px solid #f0f0f0;\n        }\n\n        .history-item:last-child {\n            border-bottom: none;\n        }\n\n        .history-item .status-ocupado {\n            color: #D32F2F;\n        }\n\n        .history-item .status-libre {\n            color: #388E3C;\n        }\n\n        .history-item .fas {\n            margin-right: 8px;\n        }\n\n        .history-time {\n            color: #777777;\n            font-size: 0.8rem;\n        }\n\n        .hidden {\n            display: none;\n        }\n    </style>\n</head>\n\n<body>   \n    <div class=\"dashboard-header\">\n        <div class=\"dashboard-title\">PARKING LOT STATUS</div>\n        <div id=\"availability-counter\" class=\"availability-counter\">Calculando...</div>\n    </div>\n\n    <div class=\"grid-container\">\n    </div>\n\n    <script>\n        (function(scope) {\n            if (!scope.slotData) {\n                scope.slotData = {};\n                for (let i = 1; i <= 12; i++) {\n                    scope.slotData[i] = {\n                        current: 'Libre',\n                        history: []\n                    };\n                }\n            }\n\n            function updateAvailabilityCounter() {\n                let availableSlots = 0;\n                for (let i = 1; i <= 12; i++) {\n                    if (scope.slotData[i] && scope.slotData[i].current === 'Libre') {\n                        availableSlots++;\n                    }\n                }\n                const counterElement = document.getElementById('availability-counter');\n                if (counterElement) {\n                    counterElement.textContent = `${availableSlots} / 12 Espacios Disponibles`;\n                }\n            }\n\n            function renderSlots() {\n                const container = document.querySelector('.grid-container');\n                if (!container) return;\n                container.innerHTML = '';\n\n                for (let i = 1; i <= 12; i++) {\n                    const slotInfo = scope.slotData[i];\n                    if (!slotInfo) continue;\n\n                    const card = document.createElement('div');\n                    card.className = 'slot-card';\n                    card.setAttribute('data-slot', i);\n\n                    const numberEl = document.createElement('div');\n                    numberEl.className = 'slot-number';\n                    numberEl.textContent = 'SLOT ' + i;\n                    card.appendChild(numberEl);\n\n                    const statusContainer = document.createElement('div');\n                    statusContainer.className = 'slot-status-container';\n\n                    let iconHTML = '';\n                    if (slotInfo.current === 'Ocupado') {\n                        card.classList.add('occupied');\n                        iconHTML = '<i class=\"fas fa-car\"></i>';\n                    } else {\n                        iconHTML = '<i class=\"fas fa-parking\"></i>';\n                    }\n\n                    statusContainer.innerHTML = `\n                        ${iconHTML}\n                        <span>${slotInfo.current}</span>\n                    `;\n                    card.appendChild(statusContainer);\n\n                    const histContainer = document.createElement('div');\n                    histContainer.className = 'history-list hidden';\n                    histContainer.setAttribute('id', 'history-' + i);\n\n                    slotInfo.history.forEach(item => {\n                        const itemDiv = document.createElement('div');\n                        itemDiv.className = 'history-item';\n                        let statusIcon = (item.status === 'Ocupado') \n                            ? '<i class=\"fas fa-times-circle status-ocupado\"></i>'\n                            : '<i class=\"fas fa-check-circle status-libre\"></i>';\n                        let statusClass = (item.status === 'Ocupado') ? 'status-ocupado' : 'status-libre';\n                        itemDiv.innerHTML = `<div>${statusIcon}<span class=\"status-text ${statusClass}\">${item.status}</span></div><span class=\"history-time\">${new Date(item.time).toLocaleString()}</span>`;\n                        histContainer.appendChild(itemDiv);\n                    });\n                    card.appendChild(histContainer);\n\n                    card.addEventListener('click', () => {\n                        document.getElementById('history-' + i).classList.toggle('hidden');\n                    });\n                    \n                    container.appendChild(card);\n                }\n                updateAvailabilityCounter();\n            }\n\n            scope.$watch('msg.payload', function(newVal) {\n                if (!newVal || typeof newVal.slot === 'undefined' || typeof newVal.status !== 'string') return;\n                \n                const rawStatus = newVal.status.trim().toLowerCase();\n                let normalizedStatus = (rawStatus === 'ocupado') ? 'Ocupado' : 'Libre';\n\n                const slotNum = parseInt(newVal.slot, 10);\n                if (isNaN(slotNum) || slotNum < 1 || slotNum > 12) return;\n                \n                if (!scope.slotData[slotNum]) {\n                    scope.slotData[slotNum] = { current: 'Libre', history: [] };\n                }\n\n                const time = newVal.time || new Date().toISOString();\n                scope.slotData[slotNum].current = normalizedStatus;\n                \n                const histArr = scope.slotData[slotNum].history;\n                if (histArr.length === 0 || histArr[0].status !== normalizedStatus) {\n                    histArr.unshift({ status: normalizedStatus, time: time });\n                    if (histArr.length > 10) histArr.pop();\n                }\n                renderSlots();\n            });\n\n            function initialRender() {\n                if (document.querySelector('.grid-container')) {\n                    renderSlots();\n                } else {\n                    setTimeout(initialRender, 50);\n                }\n            }\n            setTimeout(initialRender, 0);\n\n        })(scope);\n    </script>\n\n</body>\n\n</html>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 980,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "76b7cb444747b394",
+        "type": "switch",
+        "z": "f931998df22ab45a",
+        "name": "Enrutador de Comandos",
+        "property": "payload.content",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "regex",
+                "v": "^/status",
+                "vt": "str",
+                "case": false
+            },
+            {
+                "t": "regex",
+                "v": "^/slot",
+                "vt": "str",
+                "case": false
+            },
+            {
+                "t": "regex",
+                "v": "^/set",
+                "vt": "str",
+                "case": false
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 610,
+        "y": 500,
+        "wires": [
+            [
+                "64d9b4e89456c988"
+            ],
+            [
+                "4df62daad930991d"
+            ],
+            [
+                "3d1672e421bf8269"
+            ]
+        ]
+    },
+    {
+        "id": "64d9b4e89456c988",
+        "type": "function",
+        "z": "f931998df22ab45a",
+        "name": "Reporte General",
+        "func": "// Obtener el estado del parqueadero desde el contexto de flujo\nconst parkingStatus = flow.get('parkingStatus') || {};\nconst totalSlots = 12;\nlet occupiedSlots = 0; // << CAMBIO: Empezamos contando los ocupados.\n\n// Contar los espacios que están explícitamente marcados como 'Ocupado'\nfor (let i = 1; i <= totalSlots; i++) {\n    if (parkingStatus[i] === 'Ocupado') { // << CAMBIO: Solo cuenta si es 'Ocupado'\n        occupiedSlots++;\n    }\n}\n\nconst availableSlots = totalSlots - occupiedSlots; // << CAMBIO: Los disponibles se calculan a partir de los ocupados\n\n// Crear el mensaje de respuesta. Usamos Markdown para el formato.\nconst message = `📊 *Estado del Parqueadero*\\n\\n` +\n    `*Espacios Libres:* ${availableSlots}\\n` +\n    `*Espacios Ocupados:* ${occupiedSlots}\\n\\n` +\n    `*Total:* ${totalSlots} espacios.`;\n\n// Configurar el contenido del mensaje para el nodo emisor\nmsg.payload.content = message;\nmsg.payload.options = { parse_mode: 'Markdown' };\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 460,
+        "wires": [
+            [
+                "072550dbf68f7c34"
+            ]
+        ]
+    },
+    {
+        "id": "4df62daad930991d",
+        "type": "function",
+        "z": "f931998df22ab45a",
+        "name": "Reporte Slot Individual",
+        "func": "const command = msg.payload.content;\n// Esta expresión busca un número que venga justo después de /slot\nconst match = command.match(/\\/slot(\\d+)/);\n\n// Si no encuentra un número, envía un mensaje de error.\nif (!match || !match[1]) {\n    msg.payload.content = \"❌ Comando inválido. Usa /slot<numero> (ej. /slot5).\";\n    return msg;\n}\n\nconst slotNum = parseInt(match[1]);\n\n// Validar que el número de slot sea correcto\nif (slotNum < 1 || slotNum > 12) {\n    msg.payload.content = `❌ El Slot ${slotNum} no existe. Elige un número del 1 al 12.`;\n    return msg;\n}\n\nconst parkingStatus = flow.get('parkingStatus') || {};\nconst status = parkingStatus[slotNum] || 'Libre'; // Por defecto es 'Libre' si no hay datos\n\nlet emoji = status === 'Ocupado' ? '🔴' : '✅';\n\nmsg.payload.content = `*Estado del Slot ${slotNum}:*\\n\\n${emoji} *${status}*`;\nmsg.payload.options = { parse_mode: 'Markdown' };\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 500,
+        "wires": [
+            [
+                "072550dbf68f7c34"
+            ]
+        ]
+    },
+    {
+        "id": "3d1672e421bf8269",
+        "type": "function",
+        "z": "f931998df22ab45a",
+        "name": "Simular Sensor / Set Estado",
+        "func": "const command = msg.payload.content;\n// Esta expresión busca un número y luego la palabra \"libre\" u \"ocupado\" (sin importar mayúsculas)\nconst match = command.match(/\\/set(\\d+)(libre|ocupado)/i);\n\n// Si el formato no es correcto, envía un mensaje de error al usuario\nif (!match || !match[1] || !match[2]) {\n    msg.payload.content = \"❌ Comando inválido. Usa /set<N><estado> (ej. /set8ocupado o /set2libre).\";\n    // Envía el error por la segunda salida (al usuario) y nada por la primera.\n    return [null, msg];\n}\n\nconst slotNum = parseInt(match[1]);\nlet status = match[2];\n\n// Validar que el número de slot sea correcto\nif (slotNum < 1 || slotNum > 12) {\n    msg.payload.content = `❌ El Slot ${slotNum} no existe. Elige un número del 1 al 12.`;\n    return [null, msg];\n}\n\n// Normalizar el estado a \"Ocupado\" o \"Libre\" con la primera letra en mayúscula\nstatus = status.charAt(0).toUpperCase() + status.slice(1).toLowerCase();\n\n\n// --- Preparar los mensajes de salida ---\n\n// Salida 1: Simula el mensaje del sensor MQTT para actualizar el dashboard y el estado\nconst sensorMsg = {\n    topic: `parking/slot${slotNum}`,\n    payload: status\n};\n\n// Salida 2: Mensaje de confirmación para el usuario\nconst confirmationMsg = msg; // Reutiliza el objeto original que tiene el chatId\nconfirmationMsg.payload.content = `✅ Estado del *Slot ${slotNum}* actualizado a *${status}*.`;\nconfirmationMsg.payload.options = { parse_mode: 'Markdown' };\n\nreturn [sensorMsg, confirmationMsg];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 540,
+        "wires": [
+            [
+                "d917183338a670f1"
+            ],
+            [
+                "072550dbf68f7c34"
+            ]
+        ]
+    },
+    {
+        "id": "7b6964d615ee291b",
+        "type": "debug",
+        "z": "f931998df22ab45a",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "b3e6bd60effadf74",
+        "type": "inject",
+        "z": "f931998df22ab45a",
+        "name": "REINICIAR ESTADO (Automático al Iniciar)",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 710,
+        "y": 220,
+        "wires": [
+            [
+                "62b15f20cb3847e4"
+            ]
+        ]
+    },
+    {
+        "id": "62b15f20cb3847e4",
+        "type": "function",
+        "z": "f931998df22ab45a",
+        "name": "Limpiar Memoria de Estado",
+        "func": "// Reinicia la variable de contexto a un objeto vacío.\nflow.set('parkingStatus', {});\n\n// Muestra una advertencia en el debug para saber que se ejecutó.\nnode.warn('¡El estado del parqueadero ha sido reiniciado!');\n\nreturn null; // No es necesario que este nodo envíe mensajes.",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "74fbab132317cc66",
+        "type": "telegram receiver",
+        "z": "f931998df22ab45a",
+        "name": "",
+        "bot": "1e0b9cb2a4bddc1b",
+        "saveDataDir": "",
+        "filterCommands": false,
+        "x": 550,
+        "y": 580,
+        "wires": [
+            [
+                "76b7cb444747b394"
+            ],
+            [
+                "7b6964d615ee291b"
+            ]
+        ]
+    },
+    {
+        "id": "072550dbf68f7c34",
+        "type": "telegram sender",
+        "z": "f931998df22ab45a",
+        "name": "Enviar Respuesta",
+        "bot": "1e0b9cb2a4bddc1b",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1230,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2baa406d869cd04d",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "440de6c1c08e43ca",
+        "type": "ui_group",
+        "name": "Parqueadero Inteligente",
+        "tab": "df881ca96d672f57",
+        "order": 1,
+        "disp": true,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1e0b9cb2a4bddc1b",
+        "type": "telegram bot",
+        "botname": "Parking Bot",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "testenvironment": false,
+        "pollinterval": "",
+        "usesocks": false,
+        "sockshost": "",
+        "socksport": "",
+        "socksusername": "",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbothost": "",
+        "localbotport": "",
+        "publicbotport": "",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "df881ca96d672f57",
+        "type": "ui_tab",
+        "name": "Parqueadero Inteligente",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
