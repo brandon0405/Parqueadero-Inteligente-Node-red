@@ -7,274 +7,26 @@
         "info": ""
     },
     {
-        "id": "59f51df7c73150f6",
-        "type": "mqtt in",
-        "z": "f931998df22ab45a",
-        "name": "Sensor Slot 1",
-        "topic": "parking/slot1",
-        "qos": "2",
-        "datatype": "auto",
-        "broker": "2baa406d869cd04d",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 210,
-        "y": 60,
-        "wires": [
-            [
-                "d917183338a670f1"
-            ]
-        ]
-    },
-    {
-        "id": "0d4d43d1dcee270d",
-        "type": "mqtt in",
-        "z": "f931998df22ab45a",
-        "name": "Sensor Slot 2",
-        "topic": "parking/slot2",
-        "qos": "2",
-        "datatype": "auto",
-        "broker": "2baa406d869cd04d",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 210,
-        "y": 120,
-        "wires": [
-            [
-                "d917183338a670f1"
-            ]
-        ]
-    },
-    {
-        "id": "b768219f0102e3db",
-        "type": "mqtt in",
-        "z": "f931998df22ab45a",
-        "name": "Sensor Slot 3",
-        "topic": "parking/slot3",
-        "qos": "2",
-        "datatype": "auto",
-        "broker": "2baa406d869cd04d",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 210,
-        "y": 180,
-        "wires": [
-            [
-                "d917183338a670f1"
-            ]
-        ]
-    },
-    {
-        "id": "db5144f8d4b2f281",
-        "type": "mqtt in",
-        "z": "f931998df22ab45a",
-        "name": "Sensor Slot 4",
-        "topic": "parking/slot4",
-        "qos": "2",
-        "datatype": "auto",
-        "broker": "2baa406d869cd04d",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 210,
-        "y": 240,
-        "wires": [
-            [
-                "d917183338a670f1"
-            ]
-        ]
-    },
-    {
-        "id": "f0c6717db422eaa7",
-        "type": "mqtt in",
-        "z": "f931998df22ab45a",
-        "name": "Sensor Slot 5",
-        "topic": "parking/slot5",
-        "qos": "2",
-        "datatype": "auto",
-        "broker": "2baa406d869cd04d",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 210,
-        "y": 300,
-        "wires": [
-            [
-                "d917183338a670f1"
-            ]
-        ]
-    },
-    {
-        "id": "6e518a9abc271571",
-        "type": "mqtt in",
-        "z": "f931998df22ab45a",
-        "name": "Sensor Slot 6",
-        "topic": "parking/slot6",
-        "qos": "2",
-        "datatype": "auto",
-        "broker": "2baa406d869cd04d",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 210,
-        "y": 360,
-        "wires": [
-            [
-                "d917183338a670f1"
-            ]
-        ]
-    },
-    {
-        "id": "52356200f18c6431",
-        "type": "mqtt in",
-        "z": "f931998df22ab45a",
-        "name": "Sensor Slot 7",
-        "topic": "parking/slot7",
-        "qos": "2",
-        "datatype": "auto",
-        "broker": "2baa406d869cd04d",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 210,
-        "y": 420,
-        "wires": [
-            [
-                "d917183338a670f1"
-            ]
-        ]
-    },
-    {
-        "id": "b1599731de237ade",
-        "type": "mqtt in",
-        "z": "f931998df22ab45a",
-        "name": "Sensor Slot 8",
-        "topic": "parking/slot8",
-        "qos": "2",
-        "datatype": "auto",
-        "broker": "2baa406d869cd04d",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 210,
-        "y": 480,
-        "wires": [
-            [
-                "d917183338a670f1"
-            ]
-        ]
-    },
-    {
-        "id": "25777e68b0829a0b",
-        "type": "mqtt in",
-        "z": "f931998df22ab45a",
-        "name": "Sensor Slot 9",
-        "topic": "parking/slot9",
-        "qos": "2",
-        "datatype": "auto",
-        "broker": "2baa406d869cd04d",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 210,
-        "y": 540,
-        "wires": [
-            [
-                "d917183338a670f1"
-            ]
-        ]
-    },
-    {
-        "id": "d8cab5fc27c1a031",
-        "type": "mqtt in",
-        "z": "f931998df22ab45a",
-        "name": "Sensor Slot 10",
-        "topic": "parking/slot10",
-        "qos": "2",
-        "datatype": "auto",
-        "broker": "2baa406d869cd04d",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 210,
-        "y": 600,
-        "wires": [
-            [
-                "d917183338a670f1"
-            ]
-        ]
-    },
-    {
-        "id": "80fb2e814e159cc4",
-        "type": "mqtt in",
-        "z": "f931998df22ab45a",
-        "name": "Sensor Slot 11",
-        "topic": "parking/slot11",
-        "qos": "2",
-        "datatype": "auto",
-        "broker": "2baa406d869cd04d",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 210,
-        "y": 660,
-        "wires": [
-            [
-                "d917183338a670f1"
-            ]
-        ]
-    },
-    {
-        "id": "0e1545dd0b4760a5",
-        "type": "mqtt in",
-        "z": "f931998df22ab45a",
-        "name": "Sensor Slot 12",
-        "topic": "parking/slot12",
-        "qos": "2",
-        "datatype": "auto",
-        "broker": "2baa406d869cd04d",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 210,
-        "y": 720,
-        "wires": [
-            [
-                "d917183338a670f1"
-            ]
-        ]
-    },
-    {
         "id": "d917183338a670f1",
         "type": "function",
         "z": "f931998df22ab45a",
         "name": "Actualizar Estado y UI",
-        "func": "// Obtener el estado actual del parqueadero desde el contexto de flujo, o inicializarlo si no existe.\nlet parkingStatus = flow.get('parkingStatus') || {};\n\n// Extraer el número de slot del topic (ej. \"parking/slot1\" -> 1)\nconst topic = msg.topic;\nconst slotNumber = parseInt(topic.split('slot')[1]);\n\n// Actualizar el estado para este slot en la variable de contexto\nif (!isNaN(slotNumber)) {\n    // Normalizar el estado a \"Ocupado\" o \"Libre\"\n    const status = msg.payload.toString().trim();\n    const normalizedStatus = status.charAt(0).toUpperCase() + status.slice(1).toLowerCase();\n    \n    parkingStatus[slotNumber] = normalizedStatus;\n    flow.set('parkingStatus', parkingStatus);\n}\n\n// Formatear el payload para el dashboard (UI Template)\n// Esto mantiene la compatibilidad con el código del dashboard existente\nmsg.payload = {\n    slot: slotNumber,\n    status: msg.payload,\n    time: new Date().toISOString()\n};\n\nreturn msg;",
-        "outputs": 1,
+        "func": "// --- Obtenemos el estado anterior y el nuevo para detectar cambios ---\nconst parkingData = flow.get('parkingStatus') || {};\nconst topic = msg.topic;\nconst slotNumber = parseInt(topic.split('slot')[1]);\nconst newStatus = msg.payload.toString().trim();\n\nif (isNaN(slotNumber)) { return null; }\n\nconst oldSlotData = parkingData[slotNumber] || {};\nconst oldStatus = oldSlotData.status;\n\nlet msg1 = null; // Mensaje para la salida 1 (actualización de estado)\nlet msg2 = null; // Mensaje para la salida 2 (evento de facturación)\n\n\n// --- Lógica principal: Solo actuar si el estado ha cambiado ---\nif (newStatus !== oldStatus) {\n\n    // CASO 1: El slot acaba de ser OCUPADO\n    if (newStatus === 'Ocupado') {\n        // Guardamos el nuevo estado y la hora de entrada\n        parkingData[slotNumber] = {\n            status: 'Ocupado',\n            entryTime: new Date()\n        };\n        node.warn(`Slot ${slotNumber} ocupado. Iniciando cronómetro.`);\n    }\n\n    // CASO 2: El slot acaba de ser LIBERADO\n    if (newStatus === 'Libre' && oldStatus === 'Ocupado') {\n        const entryTime = new Date(oldSlotData.entryTime);\n        const exitTime = new Date();\n\n        // Cálculo de duración corregido usando .getTime()\n        const durationMs = exitTime.getTime() - entryTime.getTime();\n        \n        const durationHours = durationMs / 1000; // MODO PRUEBA: 1 segundo = 1 hora\n        //const durationHours = durationMs / (1000 * 60 * 60); // MODO REAL: Cálculo correcto de horas\n        \n        // Lógica de cobro por horas completas (mínimo 1 hora)\n        if (durationHours >= 1) {\n            const billableHours = Math.floor(durationHours);\n            const ratePerHour = 2;\n            const cost = billableHours * ratePerHour;\n\n            // Prepara el mensaje de facturación para la segunda salida\n            msg2 = {\n                payload: {\n                    type: 'billing_event',\n                    slot: slotNumber,\n                    duration: durationHours,\n                    cost: cost,\n                    billableHours: billableHours,\n                    timestamp: new Date().toJSON() // Usamos toJSON para un formato estándar\n                }\n            };\n            \n            // Guardar transacción en el historial global\n            const allBillings = global.get('allBillings') || [];\n            allBillings.push(msg2.payload);\n            global.set('allBillings', allBillings);\n\n            node.warn(`--- FACTURA SLOT ${slotNumber} ---`);\n            node.warn(`Facturando ${billableHours} horas completas. Costo: $${cost.toFixed(2)}`);\n\n        } else {\n            node.warn(`Slot ${slotNumber} liberado. Menos de 1 hora, no se cobra.`);\n        }\n        \n        // Limpiamos el estado del slot\n        parkingData[slotNumber] = {\n            status: 'Libre',\n            entryTime: null \n        };\n    }\n    \n    // Guardar el estado actualizado en la memoria del flujo\n    flow.set('parkingStatus', parkingData);\n}\n\n\n// Prepara el mensaje de actualización de estado para la primera salida (para el dashboard)\nmsg1 = {\n    payload: {\n        slot: slotNumber,\n        status: newStatus,\n        time: new Date().toISOString()\n    }\n};\n\n// Retornamos los dos mensajes. Si msg2 es null, no se enviará nada por la segunda salida.\nreturn [msg1, msg2];",
+        "outputs": 2,
         "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 620,
-        "y": 280,
+        "x": 280,
+        "y": 360,
         "wires": [
             [
                 "3e5b0c557363fe1e"
+            ],
+            [
+                "3e5b0c557363fe1e",
+                "4fa5aae3c229adfa"
             ]
         ]
     },
@@ -287,14 +39,14 @@
         "order": 1,
         "width": "26",
         "height": "20",
-        "format": "<!DOCTYPE html>\n<html lang=\"es\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Parking Lot Status</title>\n\n    <link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Bebas+Neue&display=swap\"\n        rel=\"stylesheet\">\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css\"\n        integrity=\"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==\"\n        crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />\n\n    <style>\n        body {\n            background-size: cover;\n            background-position: center;\n            background-repeat: no-repeat;\n            font-family: 'Roboto', sans-serif;\n            margin: 0;\n            padding: 20px;\n            background-image: url('https://www.scheidt-bachmann.de/fileadmin/images/parking-solutions/products/Head-Leeres-Parkhaus.jpg');\n            color: #333;\n            position: relative;\n            z-index: 0;\n        }\n\n        body::before {\n            content: \"\";\n            position: fixed;\n            top: 0;\n            left: 0;\n            width: 100vw;\n            height: 100vh;\n            background-color: rgba(0, 0, 0, 0.5);\n            z-index: -1;\n        }\n\n        .dashboard-header {\n            text-align: center;\n            margin-bottom: 25px;\n            padding: 15px;\n            background-color: rgba(0, 0, 0, 0.6);\n            border-radius: 8px;\n            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);\n            max-width: 900px;\n            margin-left: auto;\n            margin-right: auto;\n        }\n\n        .dashboard-title {\n            font-family: 'Bebas Neue', sans-serif;\n            font-size: 2.8rem;\n            color: #ffffff;\n            margin: 0 0 10px 0;\n        }\n\n        .availability-counter {\n            font-size: 1.2rem;\n            color: #f0f0f0;\n        }\n\n        .grid-container {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n            grid-gap: 25px;\n            max-width: 900px;\n            margin-left: auto;\n            margin-right: auto;\n        }\n\n        .slot-card {\n            background-color: #ffffff;\n            border: 1px solid #e0e0e0;\n            border-left: 5px solid #4CAF50;\n            border-radius: 10px;\n            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);\n            padding: 20px;\n            text-align: center;\n            position: relative;\n            cursor: pointer;\n            transition: transform 0.3s ease, box-shadow 0.3s ease, border-left-color 0.3s ease;\n        }\n\n        .slot-card:hover {\n            transform: translateY(-5px);\n            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);\n        }\n\n        .slot-card.occupied {\n            background-color: #fff7f7;\n            border-left-color: #F44336;\n        }\n\n        .slot-number {\n            font-family: 'Bebas Neue', sans-serif;\n            font-size: 2.5rem;\n            font-weight: 700;\n            margin-bottom: 15px;\n            color: #333333;\n        }\n\n        .slot-status-container {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            gap: 10px;\n            font-size: 1.4rem;\n            font-weight: bold;\n        }\n\n        .slot-card.occupied .slot-status-container {\n            color: #D32F2F;\n        }\n\n        .slot-card:not(.occupied) .slot-status-container {\n            color: #388E3C;\n        }\n\n        .history-list {\n            margin-top: 20px;\n            font-size: 0.9rem;\n            max-height: 150px;\n            overflow-y: auto;\n            padding-right: 10px;\n            text-align: left;\n            border-top: 1px solid #eaeaea;\n            margin-left: -20px;\n            margin-right: -20px;\n            padding-left: 20px;\n            padding-top: 10px;\n            background-color: #fcfcfc;\n        }\n\n        .history-item {\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n            padding: 8px 10px;\n            border-bottom: 1px solid #f0f0f0;\n        }\n\n        .history-item:last-child {\n            border-bottom: none;\n        }\n\n        .history-item .status-ocupado {\n            color: #D32F2F;\n        }\n\n        .history-item .status-libre {\n            color: #388E3C;\n        }\n\n        .history-item .fas {\n            margin-right: 8px;\n        }\n\n        .history-time {\n            color: #777777;\n            font-size: 0.8rem;\n        }\n\n        .hidden {\n            display: none;\n        }\n    </style>\n</head>\n\n<body>   \n    <div class=\"dashboard-header\">\n        <div class=\"dashboard-title\">PARKING LOT STATUS</div>\n        <div id=\"availability-counter\" class=\"availability-counter\">Calculando...</div>\n    </div>\n\n    <div class=\"grid-container\">\n    </div>\n\n    <script>\n        (function(scope) {\n            if (!scope.slotData) {\n                scope.slotData = {};\n                for (let i = 1; i <= 12; i++) {\n                    scope.slotData[i] = {\n                        current: 'Libre',\n                        history: []\n                    };\n                }\n            }\n\n            function updateAvailabilityCounter() {\n                let availableSlots = 0;\n                for (let i = 1; i <= 12; i++) {\n                    if (scope.slotData[i] && scope.slotData[i].current === 'Libre') {\n                        availableSlots++;\n                    }\n                }\n                const counterElement = document.getElementById('availability-counter');\n                if (counterElement) {\n                    counterElement.textContent = `${availableSlots} / 12 Espacios Disponibles`;\n                }\n            }\n\n            function renderSlots() {\n                const container = document.querySelector('.grid-container');\n                if (!container) return;\n                container.innerHTML = '';\n\n                for (let i = 1; i <= 12; i++) {\n                    const slotInfo = scope.slotData[i];\n                    if (!slotInfo) continue;\n\n                    const card = document.createElement('div');\n                    card.className = 'slot-card';\n                    card.setAttribute('data-slot', i);\n\n                    const numberEl = document.createElement('div');\n                    numberEl.className = 'slot-number';\n                    numberEl.textContent = 'SLOT ' + i;\n                    card.appendChild(numberEl);\n\n                    const statusContainer = document.createElement('div');\n                    statusContainer.className = 'slot-status-container';\n\n                    let iconHTML = '';\n                    if (slotInfo.current === 'Ocupado') {\n                        card.classList.add('occupied');\n                        iconHTML = '<i class=\"fas fa-car\"></i>';\n                    } else {\n                        iconHTML = '<i class=\"fas fa-parking\"></i>';\n                    }\n\n                    statusContainer.innerHTML = `\n                        ${iconHTML}\n                        <span>${slotInfo.current}</span>\n                    `;\n                    card.appendChild(statusContainer);\n\n                    const histContainer = document.createElement('div');\n                    histContainer.className = 'history-list hidden';\n                    histContainer.setAttribute('id', 'history-' + i);\n\n                    slotInfo.history.forEach(item => {\n                        const itemDiv = document.createElement('div');\n                        itemDiv.className = 'history-item';\n                        let statusIcon = (item.status === 'Ocupado') \n                            ? '<i class=\"fas fa-times-circle status-ocupado\"></i>'\n                            : '<i class=\"fas fa-check-circle status-libre\"></i>';\n                        let statusClass = (item.status === 'Ocupado') ? 'status-ocupado' : 'status-libre';\n                        itemDiv.innerHTML = `<div>${statusIcon}<span class=\"status-text ${statusClass}\">${item.status}</span></div><span class=\"history-time\">${new Date(item.time).toLocaleString()}</span>`;\n                        histContainer.appendChild(itemDiv);\n                    });\n                    card.appendChild(histContainer);\n\n                    card.addEventListener('click', () => {\n                        document.getElementById('history-' + i).classList.toggle('hidden');\n                    });\n                    \n                    container.appendChild(card);\n                }\n                updateAvailabilityCounter();\n            }\n\n            scope.$watch('msg.payload', function(newVal) {\n                if (!newVal || typeof newVal.slot === 'undefined' || typeof newVal.status !== 'string') return;\n                \n                const rawStatus = newVal.status.trim().toLowerCase();\n                let normalizedStatus = (rawStatus === 'ocupado') ? 'Ocupado' : 'Libre';\n\n                const slotNum = parseInt(newVal.slot, 10);\n                if (isNaN(slotNum) || slotNum < 1 || slotNum > 12) return;\n                \n                if (!scope.slotData[slotNum]) {\n                    scope.slotData[slotNum] = { current: 'Libre', history: [] };\n                }\n\n                const time = newVal.time || new Date().toISOString();\n                scope.slotData[slotNum].current = normalizedStatus;\n                \n                const histArr = scope.slotData[slotNum].history;\n                if (histArr.length === 0 || histArr[0].status !== normalizedStatus) {\n                    histArr.unshift({ status: normalizedStatus, time: time });\n                    if (histArr.length > 10) histArr.pop();\n                }\n                renderSlots();\n            });\n\n            function initialRender() {\n                if (document.querySelector('.grid-container')) {\n                    renderSlots();\n                } else {\n                    setTimeout(initialRender, 50);\n                }\n            }\n            setTimeout(initialRender, 0);\n\n        })(scope);\n    </script>\n\n</body>\n\n</html>",
+        "format": "<!DOCTYPE html>\n<html lang=\"es\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Parking Lot Status</title>\n    <link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Bebas+Neue&display=swap\"\n        rel=\"stylesheet\">\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css\"\n        integrity=\"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==\"\n        crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />\n\n    <style>\n        body {\n            background-size: cover;\n            background-position: center;\n            background-repeat: no-repeat;\n            font-family: 'Roboto', sans-serif;\n            margin: 0;\n            padding: 20px;\n            background-image: url('https://www.scheidt-bachmann.de/fileadmin/images/parking-solutions/products/Head-Leeres-Parkhaus.jpg');\n            color: #333;\n            position: relative;\n            z-index: 0;\n        }\n\n        body::before {\n            content: \"\";\n            position: fixed;\n            top: 0;\n            left: 0;\n            width: 100vw;\n            height: 100vh;\n            background-color: rgba(0, 0, 0, 0.5);\n            z-index: -1;\n        }\n\n        .dashboard-header {\n            text-align: center;\n            margin-bottom: 25px;\n            padding: 15px;\n            background-color: rgba(0, 0, 0, 0.6);\n            border-radius: 8px;\n            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);\n            max-width: 900px;\n            margin-left: auto;\n            margin-right: auto;\n        }\n\n        .dashboard-title {\n            font-family: 'Bebas Neue', sans-serif;\n            font-size: 2.8rem;\n            color: #ffffff;\n            margin: 0 0 10px 0;\n        }\n\n        .availability-counter {\n            font-size: 1.2rem;\n            color: #f0f0f0;\n        }\n\n        .grid-container {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n            grid-gap: 25px;\n            max-width: 900px;\n            margin-left: auto;\n            margin-right: auto;\n        }\n\n        .slot-card {\n            background-color: #ffffff;\n            border: 1px solid #e0e0e0;\n            border-left: 5px solid #4CAF50;\n            border-radius: 10px;\n            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);\n            padding: 20px;\n            text-align: center;\n            position: relative;\n            cursor: pointer;\n            transition: transform 0.3s ease, box-shadow 0.3s ease, border-left-color 0.3s ease;\n        }\n\n        .slot-card:hover {\n            transform: translateY(-5px);\n            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);\n        }\n\n        .slot-card.occupied {\n            background-color: #fff7f7;\n            border-left-color: #F44336;\n        }\n\n        .slot-number {\n            font-family: 'Bebas Neue', sans-serif;\n            font-size: 2.5rem;\n            font-weight: 700;\n            margin-bottom: 15px;\n            color: #333333;\n        }\n\n        .slot-status-container {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            gap: 10px;\n            font-size: 1.4rem;\n            font-weight: bold;\n        }\n\n        .slot-card.occupied .slot-status-container {\n            color: #D32F2F;\n        }\n\n        .slot-card:not(.occupied) .slot-status-container {\n            color: #388E3C;\n        }\n\n        .history-list {\n            margin-top: 20px;\n            font-size: 0.9rem;\n            max-height: 150px;\n            overflow-y: auto;\n            padding-right: 10px;\n            text-align: left;\n            border-top: 1px solid #eaeaea;\n            margin-left: -20px;\n            margin-right: -20px;\n            padding-left: 20px;\n            padding-top: 10px;\n            background-color: #fcfcfc;\n        }\n\n        .history-item {\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n            padding: 8px 10px;\n            border-bottom: 1px solid #f0f0f0;\n        }\n\n        .history-item:last-child {\n            border-bottom: none;\n        }\n\n        .history-item .status-ocupado {\n            color: #D32F2F;\n        }\n\n        .history-item .status-libre {\n            color: #388E3C;\n        }\n\n        .history-item .fas {\n            margin-right: 8px;\n        }\n\n        .history-time {\n            color: #777777;\n            font-size: 0.8rem;\n        }\n\n        .hidden {\n            display: none;\n        }\n\n        .billing-header {\n            font-family: 'Bebas Neue', sans-serif;\n            font-size: 2rem;\n            color: #ffffff;\n            text-align: center;\n            margin-top: 40px;\n            margin-bottom: 15px;\n        }\n\n        .billing-list {\n            list-style: none;\n            padding: 0;\n            max-width: 700px;\n            margin: 0 auto;\n            font-family: 'Roboto', sans-serif;\n        }\n\n        .billing-item {\n            background-color: rgba(245, 247, 250, 0.95);\n            border-radius: 8px;\n            padding: 12px 20px;\n            margin-bottom: 10px;\n            display: grid;\n            grid-template-columns: 1fr 2fr 1fr;\n            gap: 15px;\n            align-items: center;\n            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n            border-left: 5px solid #1E88E5;\n        }\n\n        .billing-item div {\n            margin: 0;\n        }\n\n        .billing-item .slot-id {\n            font-weight: bold;\n            font-size: 1.1rem;\n            color: #333;\n        }\n\n        .billing-item .time-details {\n            font-size: 0.9rem;\n            color: #555;\n            line-height: 1.4;\n        }\n\n        .billing-item .time-details small {\n            color: #777;\n        }\n\n        .billing-item .cost-details {\n            font-size: 1.4rem;\n            color: #0056b3;\n            font-weight: bold;\n            text-align: right;\n        }\n\n        .no-billing {\n            text-align: center;\n            color: #ccc;\n            padding: 20px;\n            background-color: rgba(0, 0, 0, 0.2);\n            border-radius: 8px;\n        }\n    </style>\n</head>\n\n<body>\n    <div class=\"dashboard-header\">\n        <div class=\"dashboard-title\">PARKING LOT STATUS</div>\n        <div id=\"availability-counter\" class=\"availability-counter\">Calculando...</div>\n    </div>\n    <div class=\"grid-container\"></div>\n    <div class=\"billing-header\">Últimos Cobros Realizados</div>\n    <ul id=\"billing-list\" class=\"billing-list\">\n        <li class=\"no-billing\">Aún no hay cobros registrados.</li>\n    </ul>\n\n    <script>\n        (function(scope) {\n            // Inicialización completa de datos, incluyendo el historial\n            if (!scope.slotData) {\n                scope.slotData = {};\n                for (let i = 1; i <= 12; i++) {\n                    scope.slotData[i] = {\n                        current: 'Libre',\n                        history: []\n                    };\n                }\n            }\n\n            // Función completa para actualizar el contador\n            function updateAvailabilityCounter() {\n                let availableSlots = 0;\n                for (let i = 1; i <= 12; i++) {\n                    if (scope.slotData[i] && scope.slotData[i].current === 'Libre') {\n                        availableSlots++;\n                    }\n                }\n                const counterElement = document.getElementById('availability-counter');\n                if (counterElement) {\n                    counterElement.textContent = `${availableSlots} / 12 Espacios Disponibles`;\n                }\n            }\n\n            // Función completa para dibujar los slots en el dashboard\n            function renderSlots() {\n                const container = document.querySelector('.grid-container');\n                if (!container) return;\n                container.innerHTML = '';\n\n                for (let i = 1; i <= 12; i++) {\n                    const slotInfo = scope.slotData[i];\n                    if (!slotInfo) continue;\n\n                    const card = document.createElement('div');\n                    card.className = 'slot-card';\n                    card.setAttribute('data-slot', i);\n\n                    const numberEl = document.createElement('div');\n                    numberEl.className = 'slot-number';\n                    numberEl.textContent = 'SLOT ' + i;\n                    card.appendChild(numberEl);\n\n                    const statusContainer = document.createElement('div');\n                    statusContainer.className = 'slot-status-container';\n\n                    let iconHTML = '';\n                    if (slotInfo.current === 'Ocupado') {\n                        card.classList.add('occupied');\n                        iconHTML = '<i class=\"fas fa-car\"></i>';\n                    } else {\n                        card.classList.remove('occupied');\n                        iconHTML = '<i class=\"fas fa-parking\"></i>';\n                    }\n\n                    statusContainer.innerHTML = `\n                        ${iconHTML}\n                        <span>${slotInfo.current}</span>\n                    `;\n                    card.appendChild(statusContainer);\n                    \n                    const histContainer = document.createElement('div');\n                    histContainer.className = 'history-list hidden';\n                    histContainer.setAttribute('id', 'history-' + i);\n\n                    slotInfo.history.forEach(item => {\n                        const itemDiv = document.createElement('div');\n                        itemDiv.className = 'history-item';\n                        let statusIcon = (item.status === 'Ocupado') \n                            ? '<i class=\"fas fa-times-circle status-ocupado\"></i>'\n                            : '<i class=\"fas fa-check-circle status-libre\"></i>';\n                        let statusClass = (item.status === 'Ocupado') ? 'status-ocupado' : 'status-libre';\n                        itemDiv.innerHTML = `<div>${statusIcon}<span class=\"status-text ${statusClass}\">${item.status}</span></div><span class=\"history-time\">${new Date(item.time).toLocaleString()}</span>`;\n                        histContainer.appendChild(itemDiv);\n                    });\n                    card.appendChild(histContainer);\n\n                    card.addEventListener('click', () => {\n                        document.getElementById('history-' + i).classList.toggle('hidden');\n                    });\n                    \n                    container.appendChild(card);\n                }\n                updateAvailabilityCounter();\n            }\n\n            scope.$watch('msg.payload', function(newVal) {\n                if (!newVal) return;\n\n                // Lógica para manejar eventos de facturación\n                if (newVal.type === 'billing_event') {\n                    const list = document.getElementById('billing-list');\n                    const noBillingMsg = document.querySelector('.no-billing');\n                    if (noBillingMsg) {\n                        noBillingMsg.style.display = 'none';\n                    }\n                    const item = document.createElement('li');\n                    item.className = 'billing-item';\n                    const cost = newVal.cost.toFixed(2);\n                    const duration = newVal.duration.toFixed(2);\n                    const billableHours = newVal.billableHours;\n                    \n                    item.innerHTML = `\n                        <div class=\"slot-id\">SLOT ${newVal.slot}</div>\n                        <div class=\"time-details\">\n                            ${billableHours} horas facturadas\n                            <br>\n                            <small>(${duration}h de estadía total)</small>\n                        </div>\n                        <div class=\"cost-details\">$${cost}</div>\n                    `;\n                    \n                    list.prepend(item);\n                    while (list.children.length > 5) {\n                        list.removeChild(list.lastChild);\n                    }\n                    return; \n                }\n\n                // Lógica completa para actualizar el estado del slot y su historial\n                if (typeof newVal.slot === 'undefined' || typeof newVal.status !== 'string') return;\n                \n                const rawStatus = newVal.status.trim().toLowerCase();\n                let normalizedStatus = (rawStatus === 'ocupado') ? 'Ocupado' : 'Libre';\n                const slotNum = parseInt(newVal.slot, 10);\n                if (isNaN(slotNum) || slotNum < 1 || slotNum > 12) return;\n                \n                if (!scope.slotData[slotNum]) {\n                    scope.slotData[slotNum] = { current: 'Libre', history: [] };\n                }\n                scope.slotData[slotNum].current = normalizedStatus;\n                \n                const histArr = scope.slotData[slotNum].history;\n                let shouldAddToHistory = false;\n                if (normalizedStatus === 'Ocupado') {\n                    shouldAddToHistory = true;\n                } else if (normalizedStatus === 'Libre' && histArr.length > 0) {\n                    shouldAddToHistory = true;\n                }\n                \n                if (shouldAddToHistory && (histArr.length === 0 || histArr[0].status !== normalizedStatus)) {\n                    const time = newVal.time || new Date().toISOString();\n                    histArr.unshift({ status: normalizedStatus, time: time });\n                    if (histArr.length > 10) {\n                        histArr.pop();\n                    }\n                }\n                \n                renderSlots();\n            });\n\n            function initialRender() {\n                if (document.querySelector('.grid-container')) {\n                    renderSlots();\n                } else {\n                    setTimeout(initialRender, 50);\n                }\n            }\n            setTimeout(initialRender, 0);\n\n        })(scope);\n    </script>\n</body>\n\n</html>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 980,
-        "y": 280,
+        "x": 600,
+        "y": 360,
         "wires": [
             []
         ]
@@ -324,13 +76,19 @@
                 "v": "^/set",
                 "vt": "str",
                 "case": false
+            },
+            {
+                "t": "regex",
+                "v": "^/reporte",
+                "vt": "str",
+                "case": false
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 3,
-        "x": 610,
-        "y": 500,
+        "outputs": 4,
+        "x": 170,
+        "y": 580,
         "wires": [
             [
                 "64d9b4e89456c988"
@@ -340,6 +98,9 @@
             ],
             [
                 "3d1672e421bf8269"
+            ],
+            [
+                "e3ed0db85de5d127"
             ]
         ]
     },
@@ -355,8 +116,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 890,
-        "y": 460,
+        "x": 450,
+        "y": 540,
         "wires": [
             [
                 "072550dbf68f7c34"
@@ -375,8 +136,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 900,
-        "y": 500,
+        "x": 460,
+        "y": 580,
         "wires": [
             [
                 "072550dbf68f7c34"
@@ -395,8 +156,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 920,
-        "y": 540,
+        "x": 480,
+        "y": 620,
         "wires": [
             [
                 "d917183338a670f1"
@@ -418,8 +179,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 740,
-        "y": 600,
+        "x": 300,
+        "y": 700,
         "wires": []
     },
     {
@@ -443,8 +204,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 710,
-        "y": 220,
+        "x": 330,
+        "y": 300,
         "wires": [
             [
                 "62b15f20cb3847e4"
@@ -456,14 +217,15 @@
         "type": "function",
         "z": "f931998df22ab45a",
         "name": "Limpiar Memoria de Estado",
-        "func": "// Reinicia la variable de contexto a un objeto vacío.\nflow.set('parkingStatus', {});\n\n// Muestra una advertencia en el debug para saber que se ejecutó.\nnode.warn('¡El estado del parqueadero ha sido reiniciado!');\n\nreturn null; // No es necesario que este nodo envíe mensajes.",
+        "func": "// Reinicia la variable de contexto a un objeto vacío.\nflow.set('parkingStatus', {});\n// **** NUEVO: Reinicia también el historial de todos los cobros ****\nglobal.set('allBillings', []);\n// Muestra una advertencia en el debug para saber que se ejecutó.\nnode.warn('¡El estado del parqueadero ha sido reiniciado!');\n\nreturn null; // No es necesario que este nodo envíe mensajes.",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1060,
-        "y": 220,
+        "x": 680,
+        "y": 300,
         "wires": [
             []
         ]
@@ -476,8 +238,8 @@
         "bot": "1e0b9cb2a4bddc1b",
         "saveDataDir": "",
         "filterCommands": false,
-        "x": 550,
-        "y": 580,
+        "x": 110,
+        "y": 680,
         "wires": [
             [
                 "76b7cb444747b394"
@@ -495,42 +257,48 @@
         "bot": "1e0b9cb2a4bddc1b",
         "haserroroutput": false,
         "outputs": 1,
-        "x": 1230,
-        "y": 480,
+        "x": 790,
+        "y": 580,
         "wires": [
             []
         ]
     },
     {
-        "id": "2baa406d869cd04d",
-        "type": "mqtt-broker",
-        "name": "",
-        "broker": "broker.hivemq.com",
-        "port": 1883,
-        "clientid": "",
-        "autoConnect": true,
-        "usetls": false,
-        "protocolVersion": 4,
-        "keepalive": 60,
-        "cleansession": true,
-        "autoUnsubscribe": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthRetain": "false",
-        "birthPayload": "",
-        "birthMsg": {},
-        "closeTopic": "",
-        "closeQos": "0",
-        "closeRetain": "false",
-        "closePayload": "",
-        "closeMsg": {},
-        "willTopic": "",
-        "willQos": "0",
-        "willRetain": "false",
-        "willPayload": "",
-        "willMsg": {},
-        "userProps": "",
-        "sessionExpiry": ""
+        "id": "4fa5aae3c229adfa",
+        "type": "debug",
+        "z": "f931998df22ab45a",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "e3ed0db85de5d127",
+        "type": "function",
+        "z": "f931998df22ab45a",
+        "name": "Generar Reporte Diario",
+        "func": "// Obtiene el historial completo de la \"base de datos\" global\nconst allBillings = global.get('allBillings') || [];\nconst today = new Date();\nlet totalHoy = 0;\nlet transaccionesHoy = 0;\n\nlet reporte = `*📊 Reporte de Cobros para ${today.toLocaleDateString('es-EC')}*\\n\\n`;\n\n// Filtra las transacciones que ocurrieron hoy\nfor (const tx of allBillings) {\n    const txDate = new Date(tx.timestamp); // La fecha de la transacción\n\n    // Compara si la fecha de la transacción es igual a la fecha de hoy\n    if (txDate.toDateString() === today.toDateString()) {\n        transaccionesHoy++;\n        reporte += `🔹 Slot ${tx.slot} | ${tx.billableHours}h | $${tx.cost.toFixed(2)}\\n`;\n        totalHoy += tx.cost;\n    }\n}\n\nif (transaccionesHoy === 0) {\n    reporte += \"No se han registrado cobros el día de hoy.\";\n} else {\n    reporte += `\\n*Total del día: $${totalHoy.toFixed(2)}*`;\n}\n\n// Prepara el mensaje para enviarlo por Telegram\nmsg.payload.content = reporte;\nmsg.payload.options = { parse_mode: 'Markdown' };\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 660,
+        "wires": [
+            [
+                "072550dbf68f7c34"
+            ]
+        ]
     },
     {
         "id": "440de6c1c08e43ca",
